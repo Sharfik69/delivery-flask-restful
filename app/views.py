@@ -7,7 +7,7 @@ validation = Validation()
 
 @module.route('/', methods=['GET'])
 def index():
-    return "ok"
+    return 'ok'
 
 @module.route('/couriers', methods=['POST'])
 def couriers():
